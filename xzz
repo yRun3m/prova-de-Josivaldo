@@ -1,0 +1,10 @@
+class Pessoa():
+    def __init__(self,nome,sexo,idade,matricula):
+        self.nome = nome
+        self.sexo = sexo
+        self.idade = idade
+        self.matricula = matricula
+
+if __name__ == "__main__":
+    pessoa1 = Pessoa("João", "M", "17", "123456")
+    print(pessoa1.nome,pessoa1.sexo,pessoa1.idade,pessoa1.matricula)
